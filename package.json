@@ -1,0 +1,33 @@
+{
+  "name": "leetify",
+  "version": "1.0.0",
+  "description": "Convert string to L33T Sp34k!",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianpolak/leetify.git"
+  },
+  "keywords": [
+    "leet",
+    "speak",
+    "1337",
+    "convert",
+    "string",
+    "L33T"
+  ],
+  "author": {
+    "name": "Damian Polak",
+    "email": "deeppurple044@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damianpolak/leetify/issues"
+  },
+  "homepage": "https://github.com/damianpolak/leetify#readme"
+}
