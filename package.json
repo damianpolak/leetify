@@ -1,18 +1,19 @@
 {
   "name": "leetify",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Convert string to L33T Sp34k!",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
-  },
-  "devDependencies": {
-    "ava": "^0.20.0"
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/damianpolak/leetify.git"
   },
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
   "keywords": [
     "leet",
     "speak",
@@ -29,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/damianpolak/leetify/issues"
   },
-  "homepage": "https://github.com/damianpolak/leetify#readme"
+  "homepage": "https://github.com/damianpolak/leetify#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "vitest": "^0.17.0"
+  }
 }
