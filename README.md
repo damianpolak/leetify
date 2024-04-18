@@ -4,7 +4,7 @@
 </p>
 <br>
 
-![npm](https://img.shields.io/npm/dw/leetify) ![npm](https://img.shields.io/npm/v/leetify) ![NPM](https://img.shields.io/npm/l/leetify) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/superbytess/leetify/node.js.yml)
+![npm](https://img.shields.io/npm/dw/leetify) ![npm](https://img.shields.io/npm/v/leetify) ![NPM](https://img.shields.io/npm/l/leetify) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/damianpolak/leetify/node.js.yml)
 
 
 
