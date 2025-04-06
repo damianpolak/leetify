@@ -32,6 +32,6 @@
   "homepage": "https://github.com/damianpolak/leetify#readme",
   "devDependencies": {
     "nodemon": "^3.1.0",
-    "vitest": "^1.3.1"
+    "vitest": "^3.1.1"
   }
 }
