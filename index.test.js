@@ -1,6 +1,6 @@
 import { it, expect } from 'vitest';
+import leetify from './index.js';
 
-const leetify = require('./index');
 
 it('should return leetified string - basic', () => {
   const str = 'This is my example text!'
@@ -61,12 +61,14 @@ it('should handle string with special characters', () => {
 
 it('should throw error for invalid mode option', () => {
   const str = 'Test invalid mode';
-  expect(() => leetify(str, {mode: 'invalid', casesens: 'default'})).toThrow('Options validation failed');
+  expect(() => leetify(str, {mode: 'invalid', casesens: 'default'}))
+    .toThrow('Invalid mode. Must be one of: basic, pro, pro+');
 });
 
 it('should throw error for invalid casesens option', () => {
   const str = 'Test invalid casesens';
-  expect(() => leetify(str, {mode: 'basic', casesens: 'invalid'})).toThrow('Options validation failed');
+  expect(() => leetify(str, {mode: 'basic', casesens: 'invalid'}))
+    .toThrow('Invalid case sensitivity. Must be one of: default, upper, lower');
 });
 
 it('should handle mixed case string in pro mode with upper case setting', () => {
