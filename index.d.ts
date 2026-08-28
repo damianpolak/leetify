@@ -8,4 +8,4 @@ interface LeetifyOptions {
 
 declare function leetify(str: string, options?: LeetifyOptions): string;
 
-export = leetify;
+export default leetify;
