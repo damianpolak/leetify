@@ -17,7 +17,7 @@ $ npm install leetify
 ## Usage
 
 ```js
-const leetify = require('leetify');
+import leetify from 'leetify';
 
 // Basic usage
 leetify('This is Leet String!');
