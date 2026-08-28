@@ -1,6 +1,6 @@
 {
   "name": "leetify",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Convert string to L33T Sp34k!",
   "main": "dist/index.js",
   "type": "module",
